@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #0b0b0b;
+    color: white;
+}
+
+header {
+    background: linear-gradient(135deg, #000000, #b8860b);
+    padding: 30px;
+    text-align: center;
+}
+
+header h1 {
+    color: gold;
+    font-size: 32px;
+}
+
+header p {
+    color: white;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.hero h2 {
+    color: gold;
+    font-size: 30px;
+}
+
+button {
+    background: gold;
+    color: black;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.card {
+    background: #151515;
+    border: 1px solid gold;
+    width: 250px;
+    padding: 25px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.card h3 {
+    color: gold;
+}
+
+footer {
+    background: #000;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+    border-top: 1px solid gold;
+}.logo {
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0 0 15px gold;
+}
+
+.logo img {
+    width: 50%;
+    height: 50%;
+    object-fit: contain;
+    padding: 5px;
+}
